@@ -37,15 +37,11 @@
             width: 96px;
             height: 96px;
             border-radius: 50%;
-            background: linear-gradient(135deg, #3b82f6, #1d4ed8);
-            display: flex;
-            align-items: center;
-            justify-content: center;
+            object-fit: cover;
             margin: 0 auto 20px;
-            font-size: 36px;
-            font-weight: bold;
-            color: #ffffff;
+            border: 3px solid #3b82f6;
             box-shadow: 0 0 15px rgba(59, 130, 246, 0.4);
+            display: block;
         }
 
         h1 {
@@ -103,15 +99,15 @@
 <body>
 
     <div class="card">
-        <!-- Аватарка (инициал А) -->
-        <div class="avatar">А</div>
+        <!-- Ваша аватарка: укажите имя загруженного файла или URL картинки -->
+        <img src="avatar.png" alt="Артём" class="avatar">
 
         <h1>Артём</h1>
         <div class="tag">@plauz</div>
 
-        <!-- Текст о себе -->
+        <!-- Текст о себе свайб-кодингом -->
         <p class="bio">
-            Увлекаюсь технологиями, видеоиграми и автоматизацией. Люблю создавать что-то новое и экспериментировать с интересными проектами.
+            Увлекаюсь вайб-кодингом, видеоиграми и автоматизацией. Люблю создавать что-то новое и экспериментировать с интересными проектами.
         </p>
 
         <!-- Кнопки социальных сетей -->
